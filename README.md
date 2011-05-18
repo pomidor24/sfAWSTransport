@@ -1,6 +1,5 @@
 
 
-
 # Amazon SES for Symfony.
 
 This class is designed to integrate Swift_AWSTransport into Symfony ecosystem.
@@ -10,7 +9,7 @@ This class is designed to integrate Swift_AWSTransport into Symfony ecosystem.
 
 1. Download sfAWSTransport class
 2. Download ["Swiftmailer-Transport--AWS-SES"][swift-aws] dependency
-3. Locate them in any directory Symfony can load classes from
+3. Locate files in any directory Symfony can load classes from
 4. Configure your factories.yml
 
           mailer:

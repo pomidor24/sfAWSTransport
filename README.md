@@ -1,6 +1,17 @@
+[swift-aws]:  https://github.com/jmhobbs/Swiftmailer-Transport--AWS-SES Swiftmailer-Transport--AWS-SES package
+
+
+
 # Amazon SES for Symfony.
 
-This class is designed to integrate Swift_AWSTransport to Symfony ecosystem.
+This class is designed to integrate Swift_AWSTransport into Symfony ecosystem.
+
+
+## setup
+
+1. Download sfAWSTransport class
+2. Download [swift-aws]
+
 
 ## factories.yml example
 

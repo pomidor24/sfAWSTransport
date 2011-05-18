@@ -1,4 +1,3 @@
-[swift-aws]:  https://github.com/jmhobbs/Swiftmailer-Transport--AWS-SES Swiftmailer-Transport--AWS-SES package
 
 
 
@@ -30,3 +29,4 @@ This class is designed to integrate Swift_AWSTransport into Symfony ecosystem.
               endpoint: https://email.us-east-1.amazonaws.com/
 
 
+  [swift-aws]: https://github.com/jmhobbs/Swiftmailer-Transport--AWS-SES "Swiftmailer-Transport--AWS-SES"

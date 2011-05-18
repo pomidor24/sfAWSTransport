@@ -9,11 +9,9 @@ This class is designed to integrate Swift_AWSTransport into Symfony ecosystem.
 ## setup
 
 1. Download sfAWSTransport class
-2. Download [swift-aws]
-
-
-## factories.yml example
-
+2. Download ["Swiftmailer-Transport--AWS-SES"][swift-aws] dependency
+3. Locate them in any directory Symfony can load classes from
+4. Configure your factories.yml
       mailer:
         class: sfMailer
         param:
@@ -27,6 +25,8 @@ This class is designed to integrate Swift_AWSTransport into Symfony ecosystem.
               secretKey: 6789
               debug: false
               endpoint: https://email.us-east-1.amazonaws.com/
+5. Clean cache `php symfony cc` if necessary
 
+Enjoy Amazon Simple Email Service :-)
 
   [swift-aws]: https://github.com/jmhobbs/Swiftmailer-Transport--AWS-SES "Swiftmailer-Transport--AWS-SES"
